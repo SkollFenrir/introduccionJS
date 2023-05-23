@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+}
+
+#tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(73, 172, 73);
+    width: 400px;
+    height: 500px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+#imgConteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgConteiner img {
+   width: 300px;
+}
+
+#inputConteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input {
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#precioConteiner {
+    display: flex;
+    flex-direction: row;
+}
+
+#buttonConteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+
+button {
+    color: white;
+    background-color: orange;
+    height: 2rem;
+    width: 6rem;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.colorResultado{
+    display: flex;
+    background-color: black;
+    border-radius: 100px;
+    height: 20px;
+    width: 20px;
+}

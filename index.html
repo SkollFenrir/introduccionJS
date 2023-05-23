@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>IntroJavaScript</title>
+  </head>
+  <body id="conteiner">
+    <article id="tarjeta">
+      <section id="imgConteiner">
+        <div><img src="assets/img/pngwing.com.png" alt="laptop" /></div>
+        <p>Laptop</p>
+      </section>
+      <section id="inputConteiner">
+        <input type="number" placeholder="Cantidad" id="cantidad" />
+        <input type="text" placeholder="Color" id="color" />
+        <div id="precioConteiner">
+          <p>Precio:</p>
+          <p id="precio">450000</p>
+        </div>
+      </section>
+      <section id="buttonConteiner">
+        <button onclick="calcularTotal()">Calcular Total</button>
+      </section>
+    </article>
+    <article id="conteiner2">
+      <section class="resultado"><p>Total: $</p> <span id="totalElement">0</span></section>
+      <section class="resultado"><p>Cantidad: </p> <span id="cantidadElement">0</span></section>
+      <section class="resultado"><p>Color: </p> <span class="colorResultado" id="colorElement"></span></section>
+    </article>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
